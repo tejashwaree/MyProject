@@ -13,7 +13,12 @@ public class VerifyTotalValue {
 		WebDriver driver = new ChromeDriver();;//chromedriver
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		System.out.println("hi this is new code");
+		System.out.println("hi this is new code");
+		System.out.println("hi this is new code");
+		System.out.println("hi this is new code");
+	}
 
 	}
 
-}
+
