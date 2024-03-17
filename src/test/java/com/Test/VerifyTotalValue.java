@@ -3,13 +3,14 @@ package com.Test;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class VerifyTotalValue {
 
 	public static void main(String[] args) {
-		WebDriver driver = WebDriverManager.chromedriver().create();//chromedriver
+		WebDriver driver = new ChromeDriver();;//chromedriver
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
